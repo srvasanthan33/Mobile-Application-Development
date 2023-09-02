@@ -26,15 +26,113 @@ Step 6: Display message give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
+
+activity_main.xml
+
 ```
-/*
-Program to print the text “Hello World”.
-Developed by:
-Registeration Number :
-*/
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
+Main_activity.java
+```
+package com.example.androidlifecycles;
+
+import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.Toast;
+
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Toast.makeText(getApplicationContext(),"onCreate called",Toast.LENGTH_LONG).show();
+        Log.d("Vasanthan","on create called");
+
+    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Toast.makeText(getApplicationContext(), "onStart Called", Toast.LENGTH_LONG).show();
+        Log.d("Vasanthan","on start called");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Toast.makeText(getApplicationContext(), "onRestart Called", Toast.LENGTH_LONG).show();
+        Log.d("Vasanthan","on Restart called");
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Toast.makeText(getApplicationContext(), "onPause Called", Toast.LENGTH_LONG).show();
+        Log.d("Vasanthan","on pause called");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Toast.makeText(getApplicationContext(), "onResume Called", Toast.LENGTH_LONG).show();
+        Log.d("Vasanthan","on resume called");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Toast.makeText(getApplicationContext(), "onStop Called", Toast.LENGTH_LONG).show();
+        Log.d("Vasanthan","on stop called");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Toast.makeText(getApplicationContext(), "onDestroy Called", Toast.LENGTH_LONG).show();
+        Log.d("Vasanthan","on destroy called");
+    }
+
+
+
+
+}
+```
+
+Program created by 
+Vasanthan S R
+212221220058
+
 ## OUTPUT
+
+![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/a731e1db-c81f-439a-b597-99c9f8cc462d)
+
+![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/46215534-a280-4940-b450-3225f1200853)
+
+![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/25b9b348-892c-4c8b-9912-0d9e9bc2c458)
+
 
 
 
