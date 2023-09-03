@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/36eb074a-0bbe-4fa8-90d7-e4d13f802fa6)
+![AM](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/36eb074a-0bbe-4fa8-90d7-e4d13f802fa6)
 ![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/513c280e-e80c-44ae-8686-28e976948cac)
 ![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/3596f228-45d7-4ae9-b308-871bdfd668ca)
 
