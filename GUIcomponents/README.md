@@ -138,10 +138,11 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![AM](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/36eb074a-0bbe-4fa8-90d7-e4d13f802fa6)
-![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/513c280e-e80c-44ae-8686-28e976948cac)
-![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/3596f228-45d7-4ae9-b308-871bdfd668ca)
-<img width="216" alt="image" src="https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/de7c0ad9-a847-424d-ae11-7585951cca86">
+
+<img width="216" alt="image" src="[https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/de7c0ad9-a847-424d-ae11-7585951cca86](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/36eb074a-0bbe-4fa8-90d7-e4d13f802fa6)">
+<img width="216" alt="image" src="[https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/de7c0ad9-a847-424d-ae11-7585951cca86](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/3596f228-45d7-4ae9-b308-871bdfd668ca)">
+<img width="216" alt="image" src="[https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/de7c0ad9-a847-424d-ae11-7585951cca86](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/513c280e-e80c-44ae-8686-28e976948cac)">
+
 
 
 
