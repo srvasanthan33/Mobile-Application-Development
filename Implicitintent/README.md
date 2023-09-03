@@ -107,7 +107,9 @@ Main_activity.java
 ```
 ## OUTPUT
 
-![image](https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/e56b139d-ad20-4616-b879-1c95f4d2efe1)
+<img width="221" alt="image" src="https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/8b73f917-c11d-4977-b35e-8ba6f1e4811d">
+
+
 <img width="229" alt="image" src="https://github.com/srvasanthan33/Mobile-Application-Development/assets/102546622/fa1e6cff-cde1-4b25-b2bf-98a306820374">
 
 
